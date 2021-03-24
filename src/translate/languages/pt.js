@@ -29,6 +29,7 @@ const messages = {
         proj3: "Coleções",
         cont: "Contato",
         down: "Baixe meu currículo",
+        wpp: `https://wa.me/5544999643193?text=Olá!%20Acabei%20de%20ver%20seu%20portfólio!%20Podemos%20conversar?`,
       },
     },
   },
