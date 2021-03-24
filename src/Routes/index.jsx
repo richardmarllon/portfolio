@@ -1,12 +1,12 @@
 import { Route, Switch } from "react-router";
 import ErrorPage from "../Pages/404page";
-import Home from "../Pages/Home";
+import LandPage from "../Pages/LandPage";
 
 export const Routes = () => {
   return (
     <Switch>
       <Route exact path="/">
-        <Home />
+        <LandPage />
       </Route>
       <Route>
         <ErrorPage />
