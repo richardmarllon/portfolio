@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { i18n } from "./translate/i18n";
+import { Routes } from "./Routes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes />
+      {/* <header className="App-header">
+        <h1>{i18n.t("titles.app")}</h1>
+        <p>{i18n.t("messages.app")}</p>
+        <button>{i18n.t("buttons.save")}</button>
+        <small>{i18n.t("messages.small")}</small>
+      </header> */}
     </div>
   );
 }
