@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledTitle = styled.h1`
   margin: 0;
-  font-size: max(3rem, 24px);
+  font-size: 3rem;
   font-weight: bold;
   letter-spacing: 0.12em;
   color: var(--font-color);
@@ -17,4 +17,3 @@ export const StyledSubTitle = styled.p`
   color: var(--font-color);
   text-transform: uppercase;
 `;
-// max(MIN, min(VAL, MAX))

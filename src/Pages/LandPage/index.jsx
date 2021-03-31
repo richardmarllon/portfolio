@@ -1,14 +1,19 @@
 import FirstPage from "../../components/FirstPage";
 import Navbar from "../../components/header/NavBar";
-import { StyledDiv, StyledDiv2, StyledDiv1 } from "./style";
+import SecondSection from "../../components/SecondSection";
+import { StyledDiv, StyledDiv2, StyledDiv1, StyledFirstPage } from "./style";
 
 const LandPage = () => {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      <FirstPage title="Section 1" dark={true} id="section1" />
-      <StyledDiv title="Section 2" dark={false} id="section2" />
-      <StyledDiv2 title="Section 2" dark={false} id="section3" />
+      <Navbar />
+      <StyledDiv title="Home" dark={false} id="home">
+        <FirstPage />
+      </StyledDiv>
+      <StyledDiv title="First Proj" dark={false} id="first">
+        <SecondSection />
+      </StyledDiv>
+      <StyledDiv2 title="Second Proj" dark={false} id="second" />
     </div>
   );
 };

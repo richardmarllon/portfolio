@@ -14,9 +14,7 @@ const FirstPage = () => {
         <NameBox />
         <Buttons />
       </RightSide>
-      <Link to="section2" smooth={true}>
-        <ScrollIcon src={scroll} alt={"scroll icon"} />
-      </Link>
+      <ScrollIcon src={scroll} alt={"scroll icon"} />
     </Container>
   );
 };

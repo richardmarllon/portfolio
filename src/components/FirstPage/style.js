@@ -48,7 +48,4 @@ export const ScrollIcon = styled.img`
   position: fixed;
   right: 50%;
   animation: ${down} 1500ms ease infinite;
-  &:hover {
-    cursor: pointer;
-  }
 `;

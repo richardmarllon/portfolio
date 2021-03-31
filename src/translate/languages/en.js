@@ -6,7 +6,7 @@ const messages = {
         sub: "Front-end developer",
         proj1: "Kenzie hub",
         proj2: "Habits",
-        proj3: "colections",
+        proj3: "Colections",
       },
       messages: {
         proj1:
