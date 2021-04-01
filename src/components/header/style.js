@@ -6,7 +6,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   min-height: 10vh;
   background-color: ${(props) =>
-    props.bg === "Home" ? "transparent;" : "rgba(205, 215, 214);"}
+    props.bg === "Home" ? "transparent;" : "#dce3e2;"}
   position: fixed;
   width: 100%;
   .nav-content .active {
