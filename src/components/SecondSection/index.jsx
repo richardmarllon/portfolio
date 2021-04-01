@@ -6,6 +6,7 @@ import DescriptionBox from "../DescriptionBox";
 import PreviewBox from "../PreviewBox";
 import preview from "../images/image10.png";
 import TecsBox from "../TecsBox";
+import kenziehub from "../images/kenziehub.gif";
 
 const SecondSection = () => {
   const links = {
@@ -16,10 +17,12 @@ const SecondSection = () => {
     <StyledSection>
       <TitleContainer>{i18n.t("titles.proj1")}</TitleContainer>
       <DescriptionBox>{i18n.t("messages.proj1")}</DescriptionBox>
-      <PreviewBox img={preview} />
+      <PreviewBox img={kenziehub} />
       <TecsBox links={links}>{i18n.t("messages.proj1tec")}</TecsBox>
     </StyledSection>
   );
 };
 
 export default SecondSection;
+
+

@@ -2,7 +2,6 @@ import styled from "styled-components";
 import NameBox from "../NameBox";
 
 export const HeaderContainer = styled.div`
-  border: 1px solid red;
   display: flex;
   align-items: center;
   min-height: 10vh;
@@ -64,7 +63,7 @@ export const LogoContainer = styled.div`
   p {
     font-size: 1rem;
   }
-  
+
   @media (max-width: 800px) {
     display: none;
   }

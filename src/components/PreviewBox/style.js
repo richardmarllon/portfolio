@@ -6,5 +6,6 @@ export const Container = styled.section`
 `;
 
 export const ImgBox = styled.img`
-  max-width: 600px;
+  width: 50vw;
+  max-width: 800px;
 `;
