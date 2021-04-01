@@ -6,4 +6,5 @@ export const Container = styled.div`
 
 export const TextMessage = styled.h3`
   margin: 0;
+  cursor: pointer;
 `;
