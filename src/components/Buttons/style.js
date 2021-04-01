@@ -14,4 +14,7 @@ export const ButtonsContainer = styled.section`
   max-width: 200px;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 800px) {
+    width: 100%;
+  }
 `;

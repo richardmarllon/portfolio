@@ -7,6 +7,9 @@ export const StyledTitle = styled.h1`
   letter-spacing: 0.12em;
   color: var(--font-color);
   text-transform: uppercase;
+  @media (max-width: 600px) {
+    font-size: 2rem;
+  }
 `;
 
 export const StyledSubTitle = styled.p`

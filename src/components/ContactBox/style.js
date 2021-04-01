@@ -26,6 +26,9 @@ export const Container = styled.section`
   }
   @media (max-width: 800px) {
     width: 90vw;
+    h1 {
+      font-size: 1.7rem;
+    }
   }
 `;
 

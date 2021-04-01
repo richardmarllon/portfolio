@@ -55,6 +55,15 @@ export const RightSide = styled.div`
       font-size: 2rem;
     }
   }
+  @media (max-width: 600px) {
+    width: 100%;
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
 `;
 
 export const ScrollIcon = styled.img`
