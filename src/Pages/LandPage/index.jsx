@@ -1,3 +1,4 @@
+import ContactSection from "../../components/ContactSection";
 import FirstPage from "../../components/FirstPage";
 import FourthSection from "../../components/FourthSection";
 import Navbar from "../../components/header/NavBar";
@@ -21,7 +22,9 @@ const LandPage = () => {
       <StyledDiv title="Third Project" dark={false} id="third">
         <FourthSection />
       </StyledDiv>
-      <StyledDiv2 title="Second Proj" dark={false} id="third" />
+      <StyledDiv title="Third Project" dark={false} id="contact">
+        <ContactSection />
+      </StyledDiv>
     </div>
   );
 };

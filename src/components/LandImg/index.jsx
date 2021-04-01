@@ -1,9 +1,8 @@
 import { StyledImg } from "./style";
-import homeIMG from "../images/land.svg";
-const LandImg = () => {
+const LandImg = ({ img }) => {
   return (
     <>
-      <StyledImg src={homeIMG} />
+      <StyledImg src={img} />
     </>
   );
 };
