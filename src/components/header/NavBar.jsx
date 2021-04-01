@@ -3,9 +3,9 @@ import NameBox from "../NameBox";
 import { BtnGroup, HeaderContainer, LogoContainer, StyledName } from "./style";
 import { i18n } from "../../translate/i18n";
 
-const Navbar = () => {
+const Navbar = ({ setIsVisible, section }) => {
   return (
-    <HeaderContainer>
+    <HeaderContainer bg={section}>
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <LogoContainer>

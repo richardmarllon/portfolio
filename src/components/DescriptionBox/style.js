@@ -12,4 +12,9 @@ export const TextBox = styled.p`
   line-height: 22px;
   text-align: left;
   color: #102542;
+  @media (max-width: 800px) {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+  }
 `;

@@ -11,7 +11,7 @@ export const Container = styled.section`
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   box-sizing: border-box;
   p {
@@ -19,11 +19,17 @@ export const Container = styled.section`
   }
   h1 {
     color: white;
+    font-size: 2rem;
+  }
+  @media (max-width: 1150px) {
+    width: 70vw;
+  }
+  @media (max-width: 800px) {
+    width: 90vw;
   }
 `;
 
 export const ResumeBtn = styled.button`
-  margin: 0.5rem 0;
   font-size: 1.5rem;
   padding: 1rem;
   color: white;
@@ -40,10 +46,13 @@ export const ResumeBtn = styled.button`
 `;
 
 export const GenericText = styled.p`
-  display: block !important;
+  display: inline-block !important;
   color: white;
   font-size: 2rem;
   font-weight: bold;
+  @media (max-width: 600px) {
+    display: none !important;
+  }
 `;
 
 export const ProfilePic = styled.img`

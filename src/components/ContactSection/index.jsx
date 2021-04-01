@@ -2,11 +2,7 @@ import React from "react";
 import TitleContainer from "../TitleContainer";
 import { i18n } from "../../translate/i18n";
 import { LeftSide, StyledSection, RightSide } from "./style";
-import DescriptionBox from "../DescriptionBox";
-import PreviewBox from "../PreviewBox";
-import preview from "../images/image10.png";
-import TecsBox from "../TecsBox";
-import kenziehub from "../images/kenziehub.gif";
+
 import ContactBox from "../ContactBox";
 import LandImg from "../LandImg";
 import contactimg from "../images/contact.svg";

@@ -5,7 +5,8 @@ export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   min-height: 10vh;
-  background-color: transparent;
+  background-color: ${(props) =>
+    props.bg === "Home" ? "transparent;" : "rgba(205, 215, 214);"}
   position: fixed;
   width: 100%;
   .nav-content .active {
@@ -48,6 +49,12 @@ export const BtnGroup = styled.div`
     width: 100%;
     a {
       font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 600px) {
+    width: 100%;
+    a {
+      font-size: 1rem;
     }
   }
 `;

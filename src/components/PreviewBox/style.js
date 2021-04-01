@@ -6,6 +6,15 @@ export const Container = styled.section`
 `;
 
 export const ImgBox = styled.img`
-  width: 50vw;
+  width: 60vw;
   max-width: 800px;
+  @media (max-width: 1150px) {
+    width: 70vw;
+  }
+  @media (max-width: 800px) {
+    width: 80vw;
+  }
+  @media (max-width: 600px) {
+    width: 90vw;
+  }
 `;

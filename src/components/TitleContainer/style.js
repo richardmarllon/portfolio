@@ -11,4 +11,10 @@ export const Container = styled.div`
   letter-spacing: 0.12em;
   color: #102542;
   height: 8rem;
+  @media (max-width: 1150px) {
+    font-size: 3rem;
+  }
+  @media (max-width: 600px) {
+    font-size: 2rem;
+  }
 `;

@@ -12,15 +12,26 @@ export const StyledSection = styled.section`
 export const InfoContainer = styled.div``;
 export const LeftSide = styled.section`
   box-sizing: border-box;
-  /* border: 1px solid red; */
   align-self: stretch;
   width: 50%;
+  @media (max-width: 1150px) {
+    width: 30vw;
+  }
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;
 export const RightSide = styled.section`
   box-sizing: border-box;
-  /* border: 1px solid red; */
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media (max-width: 1150px) {
+    width: 70vw;
+  }
+  @media (max-width: 800px) {
+    width: 90vw;
+    margin: 0 auto;
+  }
 `;
