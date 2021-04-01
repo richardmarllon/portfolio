@@ -9,9 +9,8 @@ const Navbar = () => {
       <nav className="nav" id="navbar">
         <div className="nav-content">
           <LogoContainer>
-            <StyledName />
+            <NameBox />
           </LogoContainer>
-
           <BtnGroup>
             <Link
               activeClass="active"

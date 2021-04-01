@@ -2,8 +2,10 @@ import styled from "styled-components";
 import NameBox from "../NameBox";
 
 export const HeaderContainer = styled.div`
-  min-height: 10vh;
   border: 1px solid red;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
   background-color: transparent;
   position: fixed;
   width: 100%;
@@ -21,10 +23,10 @@ export const HeaderContainer = styled.div`
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
     cursor: pointer;
     line-height: 50px;
-    width: 160px;
+    width: 20%;
     height: 50px;
     background: rgba(196, 196, 196, 0.5);
   }
@@ -38,6 +40,17 @@ export const BtnGroup = styled.div`
   justify-content: center;
   justify-self: flex-end;
   width: 50%;
+  @media (max-width: 1150px) {
+    a {
+      font-size: 1.8vw;
+    }
+  }
+  @media (max-width: 800px) {
+    width: 100%;
+    a {
+      font-size: 1.5rem;
+    }
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -45,4 +58,14 @@ export const LogoContainer = styled.div`
   margin-top: 0.5%;
   padding-left: 3rem;
   max-width: 50%;
+  h1 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 800px) {
+    display: none;
+  }
 `;

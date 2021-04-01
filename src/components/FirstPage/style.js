@@ -38,8 +38,22 @@ export const RightSide = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 1150px) {
+    h1 {
+      font-size: 3vw;
+    }
+    p {
+      font-size: 2vw;
+    }
+  }
   @media (max-width: 800px) {
     width: 100%;
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 2rem;
+    }
   }
 `;
 
