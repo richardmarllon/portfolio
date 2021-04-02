@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import NameBox from "../NameBox";
 
 export const Container = styled.section`
   width: 30vw;

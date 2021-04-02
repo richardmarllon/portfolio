@@ -6,7 +6,6 @@ import {
   GenericText,
   ProfilePic,
   ResumeBtn,
-  StyledNameBox,
 } from "./style";
 import { i18n } from "../../translate/i18n";
 import profilepic from "../images/profile.jpg";

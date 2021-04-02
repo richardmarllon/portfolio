@@ -1,6 +1,6 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 import NameBox from "../NameBox";
-import { BtnGroup, HeaderContainer, LogoContainer, StyledName } from "./style";
+import { BtnGroup, HeaderContainer, LogoContainer } from "./style";
 import { i18n } from "../../translate/i18n";
 
 const Navbar = ({ setIsVisible, section }) => {

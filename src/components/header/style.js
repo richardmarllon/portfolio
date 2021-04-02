@@ -30,7 +30,7 @@ export const HeaderContainer = styled.div`
     height: 50px;
     background: rgba(196, 196, 196, 0.5);
   }
-`;
+`
 
 export const StyledName = styled(NameBox)``;
 

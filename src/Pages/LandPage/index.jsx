@@ -5,7 +5,7 @@ import FourthSection from "../../components/FourthSection";
 import Navbar from "../../components/header/NavBar";
 import SecondSection from "../../components/SecondSection";
 import ThirdSection from "../../components/ThirdSection";
-import { StyledDiv, StyledDiv2, StyledDiv1, StyledFirstPage } from "./style";
+import { StyledDiv } from "./style";
 
 const LandPage = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -23,7 +23,6 @@ const LandPage = () => {
     });
   }, [section]);
 
-  console.log(section);
   return (
     <div className="App">
       <Navbar setIsVisible={setIsVisible} section={section} />
