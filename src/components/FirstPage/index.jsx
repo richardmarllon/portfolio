@@ -4,6 +4,7 @@ import NameBox from "../NameBox";
 import { Container, LeftSide, RightSide, ScrollIcon } from "./style";
 import scroll from "../images/down.svg";
 import homeIMG from "../images/land.svg";
+import downAndUp from "../images/downAndUp.jpg";
 import LanguageSetter from "../LanguageSetter";
 
 const FirstPage = ({ isVisible, section }) => {
@@ -20,9 +21,7 @@ const FirstPage = ({ isVisible, section }) => {
       {section === "Home" && <ScrollIcon src={scroll} alt={"scroll icon"} />}
       {section !== "contact" && section !== "Home" && (
         <ScrollIcon
-          src={
-            "https://icon-library.com/images/scroll-down-icon-png/scroll-down-icon-png-14.jpg"
-          }
+          src={downAndUp}
           style={{ maxWidth: "50px", animationDirection: "alternate" }}
           alt={"scroll icon"}
         />
