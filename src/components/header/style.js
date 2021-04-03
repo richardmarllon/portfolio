@@ -30,7 +30,7 @@ export const HeaderContainer = styled.div`
     height: 50px;
     background: rgba(196, 196, 196, 0.5);
   }
-`
+`;
 
 export const StyledName = styled(NameBox)``;
 
@@ -74,4 +74,5 @@ export const LogoContainer = styled.div`
   @media (max-width: 800px) {
     display: none;
   }
+  opacity: ${(props) => (props.page === "Home" ? "0;" : "1;")};
 `;

@@ -31,6 +31,7 @@ const messages = {
         cont: "Contact",
         down: "Download my resumeé",
         wpp: `https://wa.me/5544999643193?text=Hello,%20I%20just%20saw%20your%20portfolio!%20Can%20we%20talk?`,
+        downlink: `https://drive.google.com/file/d/1HEu-sVE9eAGPxHbovAllocjYx5wxd3VR/view`,
       },
     },
   },

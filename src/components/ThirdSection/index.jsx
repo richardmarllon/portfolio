@@ -9,7 +9,7 @@ import TecsBox from "../TecsBox";
 import habits from "../images/habits.gif";
 const ThirdSection = () => {
   const links = {
-    github: "https://github.com/richardmarllon/kenziehub",
+    github: "https://github.com/richardmarllon/habitsmanagement",
     pagina: "https://habits-management-nunvh6ilh-grupo2.vercel.app/",
   };
   return (

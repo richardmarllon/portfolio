@@ -6,10 +6,11 @@ import DescriptionBox from "../DescriptionBox";
 import PreviewBox from "../PreviewBox";
 import TecsBox from "../TecsBox";
 import rickys from "../images/rickys.gif";
+import { Fade, Slide } from "react-awesome-reveal";
 
 const FourthSection = () => {
   const links = {
-    github: "https://github.com/richardmarllon/kenziehub",
+    github: "https://github.com/richardmarllon/colections",
     pagina: "https://colections-chi.vercel.app/",
   };
   return (

@@ -2,15 +2,17 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import NameBox from "../NameBox";
 import { BtnGroup, HeaderContainer, LogoContainer } from "./style";
 import { i18n } from "../../translate/i18n";
+import { Slide } from "react-awesome-reveal";
 
 const Navbar = ({ setIsVisible, section }) => {
   return (
     <HeaderContainer bg={section}>
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          <LogoContainer>
+          <LogoContainer page={section}>
             <NameBox />
           </LogoContainer>
+
           <BtnGroup>
             <Link
               activeClass="active"

@@ -9,7 +9,31 @@ const down = keyframes`
  bottom: 0px;
  opacity: 0.1;
 }
+`;
 
+const up = keyframes`
+0% { 
+  bottom: 0px;
+  opacity: 1;
+}
+100% {
+ bottom: 10px;
+ opacity: 0.1;
+}
+`;
+const midle = keyframes`
+0% { 
+  bottom: 0px;
+  opacity: 1;
+}
+50% {
+ bottom: 10px;
+ opacity: 0.1;
+}
+100% {
+ bottom: 0px;
+ opacity: 0.1;
+}
 `;
 
 export const Container = styled.section`
@@ -69,6 +93,7 @@ export const RightSide = styled.div`
 export const ScrollIcon = styled.img`
   transform: translateX(50%);
   position: fixed;
+
   right: 50%;
   animation: ${down} 1500ms ease infinite;
 `;

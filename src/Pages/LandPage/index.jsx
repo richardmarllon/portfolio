@@ -9,7 +9,7 @@ import { StyledDiv } from "./style";
 
 const LandPage = () => {
   const [isVisible, setIsVisible] = useState(true);
-  const [section, setSection] = useState("");
+  const [section, setSection] = useState("Home");
 
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -26,19 +26,19 @@ const LandPage = () => {
   return (
     <div className="App">
       <Navbar setIsVisible={setIsVisible} section={section} />
-      <StyledDiv title="Home" dark={false} id="home">
-        <FirstPage isVisible={isVisible} />
+      <StyledDiv dark={false} id="home">
+        <FirstPage isVisible={isVisible} section={section} />
       </StyledDiv>
-      <StyledDiv title="First Project" dark={false} id="first">
+      <StyledDiv dark={false} id="first">
         <SecondSection />
       </StyledDiv>
-      <StyledDiv title="Second Project" dark={false} id="second">
+      <StyledDiv dark={false} id="second">
         <ThirdSection />
       </StyledDiv>
-      <StyledDiv title="Third Project" dark={false} id="third">
+      <StyledDiv dark={false} id="third">
         <FourthSection />
       </StyledDiv>
-      <StyledDiv title="Third Project" dark={false} id="contact">
+      <StyledDiv dark={false} id="contact">
         <ContactSection />
       </StyledDiv>
     </div>

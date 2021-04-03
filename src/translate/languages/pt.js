@@ -30,6 +30,7 @@ const messages = {
         cont: "Contato",
         down: "Baixe meu currículo",
         wpp: `https://wa.me/5544999643193?text=Olá!%20Acabei%20de%20ver%20seu%20portfólio!%20Podemos%20conversar?`,
+        downlink: `https://drive.google.com/file/d/1BlE80dLsDfj1iBEG3pFgAsviXiO4ODHD/view`,
       },
     },
   },

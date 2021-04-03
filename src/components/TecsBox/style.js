@@ -20,6 +20,8 @@ export const BtnContainer = styled.div`
 `;
 
 export const StyledBtn = styled.button`
+  border: none;
+  outline: none;
   font-size: 2rem;
   text-transform: uppercase;
   color: #ffffff;
@@ -27,4 +29,7 @@ export const StyledBtn = styled.button`
   border-radius: 5px;
   padding: 1rem;
   cursor: pointer;
+  &:hover {
+    background-color: rgba(16, 37, 66, 0.8);
+  }
 `;
